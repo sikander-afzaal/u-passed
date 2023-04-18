@@ -10,8 +10,11 @@
     <title>UPASSED</title>
   </head>
   <body>
-    <header class="wrapper fixed top-0 left-0 z-50">
-      <div class="contain h-[100px] justify-between items-center">
+    <header
+      id="header"
+      class="wrapper transition-all duration-200 fixed top-0 left-0 z-50"
+    >
+      <div class="contain h-[80px] sm:h-[100px] justify-between items-center">
         <div
           id="overlay"
           class="fixed top-0 left-0 z-[80] w-full h-full bg-black opacity-60 xl:hidden hidden"
@@ -179,9 +182,9 @@
           <h3
             class="uppercase text-white leading-[1.1] text-2xl sm:text-[30px] xl:text-[40px] font-bold"
           >
-            Get Licensed. <br />
-            Learn from pros. <br />
-            Take CE's. <br />
+            Get Licensed. <br class="sm:block hidden" />
+            Learn from pros. <br class="sm:block hidden" />
+            Take CE's. <br class="sm:block hidden" />
             thousands of resources
           </h3>
         </div>
