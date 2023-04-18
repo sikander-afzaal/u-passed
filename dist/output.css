@@ -624,16 +624,12 @@ body{
   height: 1.75rem;
 }
 
-.h-\[100px\]{
-  height: 100px;
+.h-\[80px\]{
+  height: 80px;
 }
 
 .h-full{
   height: 100%;
-}
-
-.h-\[80px\]{
-  height: 80px;
 }
 
 .w-5{
@@ -807,12 +803,24 @@ body{
   background-image: url("/assets/leader.png");
 }
 
+.bg-hero{
+  background-image: url("/assets/hero.png");
+}
+
 .bg-cover{
   background-size: cover;
 }
 
 .bg-left-top{
   background-position: left top;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-left{
+  background-position: left;
 }
 
 .bg-no-repeat{
@@ -982,20 +990,16 @@ body{
   transition-duration: 150ms;
 }
 
+.duration-200{
+  transition-duration: 200ms;
+}
+
 .duration-300{
   transition-duration: 300ms;
 }
 
 .duration-700{
   transition-duration: 700ms;
-}
-
-.duration-500{
-  transition-duration: 500ms;
-}
-
-.duration-200{
-  transition-duration: 200ms;
 }
 
 .wrapper{
@@ -1039,12 +1043,12 @@ body{
     display: none;
   }
 
-  .sm\:h-screen{
-    height: 100vh;
-  }
-
   .sm\:h-\[100px\]{
     height: 100px;
+  }
+
+  .sm\:h-screen{
+    height: 100vh;
   }
 
   .sm\:min-h-\[700px\]{
@@ -1081,6 +1085,10 @@ body{
 
   .sm\:gap-8{
     gap: 2rem;
+  }
+
+  .sm\:bg-center{
+    background-position: center;
   }
 
   .sm\:pb-0{

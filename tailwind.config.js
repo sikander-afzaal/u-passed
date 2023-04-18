@@ -13,7 +13,7 @@ module.exports = {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        hero: 'url("./assets/hero.png")',
+        hero: 'url("/assets/hero.png")',
         leader: 'url("/assets/leader.png")',
       },
     },
