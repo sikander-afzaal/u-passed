@@ -147,15 +147,14 @@
         </button>
       </div>
     </header>
-    <div class="wrapper sm:h-screen sm:min-h-[700px] relative isolate">
+    <section class="wrapper sm:h-screen sm:min-h-[700px] relative isolate">
       <img
         class="absolute top-0 left-0 object-cover h-full w-full -z-10"
         src="./assets/hero.png"
         alt=""
       />
       <div
-        id="overlay"
-        class="fixed top-0 left-0 -z-10 w-full h-full bg-black opacity-20"
+        class="absolute top-0 left-0 -z-10 w-full h-full bg-black opacity-30"
       ></div>
       <div
         class="w-[90%] flex justify-start items-center sm:text-left text-center sm:items-start flex-col gap-4 py-[140px] relative"
@@ -187,6 +186,63 @@
           </h3>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="wrapper my-20">
+      <div class="contain flex-col justify-start items-center gap-10">
+        <div
+          class="grid grid-cols-1 grid-rows-1 xl:grid-rows-2 xl:grid-cols-2 w-full gap-10"
+        >
+          <div
+            class="flex relative sm:pb-0 pb-20 justify-between pl-3 sm:pl-8 pr-3 overflow-hidden items-start w-full bg-[#201f1f] isolate rounded-md"
+          >
+            <div
+              class="absolute top-0 left-0 -z-10 w-full sm:hidden block h-full bg-black opacity-40"
+            ></div>
+            <div
+              class="flex pt-10 justify-start max-w-[300px] sm:max-w-none items-start flex-col gap-5"
+            >
+              <div>
+                <p class="text-secondary text-lg sm:text-2xl font-bold">
+                  Early Access
+                </p>
+                <h4 class="text-white text-2xl sm:text-[28px] font-bold">
+                  Access Everything, right from your phone.
+                </h4>
+              </div>
+              <button
+                class="rounded-full text-primary border border-solid border-primary text-base font-bold uppercase px-4 py-2 hover:bg-primary hover:text-white transition-all duration-300"
+              >
+                Get Started!
+              </button>
+            </div>
+            <img
+              src="./assets/phone.png"
+              class="translate-y-[16%] -z-20 max-w-[220px] right-3 top-0 sm:static absolute"
+              alt=""
+            />
+          </div>
+          <div
+            class="flex bg-leader xl:pb-0 pb-20 bg-cover bg-no-repeat bg-left-top relative justify-start sm:items-end items-start w-full h-full rounded-md flex-col pl-3 sm:pl-0 sm:pr-16"
+          >
+            <div class="flex pt-10 justify-start items-start flex-col gap-5">
+              <div>
+                <p class="text-secondary text-lg sm:text-2xl font-bold">
+                  Early Access
+                </p>
+                <h4 class="text-white text-2xl sm:text-[28px] font-bold">
+                  Learn from leaders <br />
+                  in the industry.
+                </h4>
+              </div>
+              <button
+                class="rounded-full text-primary border border-solid border-primary text-base font-bold uppercase px-4 py-2 hover:bg-primary hover:text-white transition-all duration-300"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
